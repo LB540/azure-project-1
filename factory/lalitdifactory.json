@@ -1,0 +1,9 @@
+{
+	"name": "lalitdifactory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7fcd4511-022f-4512-82ab-4287145854e3",
+		"tenantId": "276bca9a-c0cc-480f-b6dd-93fb06709ab1"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "CICD demo",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2026-04-04T19:32:58Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
