@@ -106,7 +106,10 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"container": "bronze",
-							"folder": "cdc",
+							"folder": {
+								"value": "@{pipeline().parameters.table}_cdc",
+								"type": "Expression"
+							},
 							"file": "cdc.json"
 						}
 					},
@@ -138,7 +141,7 @@
 			},
 			"table": {
 				"type": "string",
-				"defaultValue": "DimUser"
+				"defaultValue": "DimUser_cdc"
 			},
 			"cdc_col": {
 				"type": "string",
