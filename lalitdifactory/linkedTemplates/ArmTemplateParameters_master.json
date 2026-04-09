@@ -22,6 +22,12 @@
 		},
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"value": "adminlalit"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
 		}
 	}
 }
